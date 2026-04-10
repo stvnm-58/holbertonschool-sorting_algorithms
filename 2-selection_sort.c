@@ -1,21 +1,9 @@
 #include "sort.h"
 
-/*
- *
- *
- * se mettre au [1] du array
- * défiler jusqu'à trouver le plus petit
- * dès que le plus petit est trouvé, le stocké dans tmp
- * si un encore plus petit est trouvé : le mettre dans tmp
- *
- * une fois array complété, mets le tmp dans le premier emplacement du array
- * reparcourir le array
- *
- *
- * Un compteur pour défiler dans le tableau
- * un compteur pour dire à partir de où on commence le défilement tableau
- *
- *
+/**
+ * selection_sort - Trie un tableau d'entiers par sélection
+ * @array: Le tableau d'entiers
+ * @size: La taille du tableau
  */
 
 void selection_sort(int *array, size_t size)
